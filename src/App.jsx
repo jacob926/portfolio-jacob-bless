@@ -16,16 +16,16 @@ const MainContent = () => {
       
       {/* Hero / Présentation - Responsive sans débordement */}
       <section id="about" className="py-16 sm:py-24 px-4 sm:px-6 text-center max-w-3xl mx-auto w-full break-words">
-        <span className="text-indigo-500 font-mono text-xs sm:text-sm font-semibold tracking-wider uppercase block mb-2">
+        {/* <span className="text-indigo-500 font-mono text-xs sm:text-sm font-semibold tracking-wider uppercase block mb-2">
           {t.hero.greeting}
-        </span>
+        </span> */}
         
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4 text-slate-100 break-words">
-          Jacob Bless
+          {t.hero.role}
         </h1>
         
         <p className="text-base sm:text-xl text-slate-400 font-medium mb-6 leading-relaxed max-w-2xl mx-auto">
-          {t.hero.role}
+          Jacob Bless RANDRIANAMBININA
         </p>
 
         <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-xl mx-auto mb-8 px-2">
